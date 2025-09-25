@@ -8,7 +8,7 @@ Install and run via
 
 ```bash
 >>> pip install git+https://github.com/emkeeler/greedy_spike_selection.git
->>> greedy-select --help
+>>> greedy-select -n number_of_sequences_to_select /path/to/data.csv
 ```
 
 Input CSVs should follow the following layout:
