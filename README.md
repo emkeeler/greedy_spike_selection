@@ -19,7 +19,7 @@ E.g., the first row may be `spike_1,G,V,Y,S,V,S,...`, the second `spike_2,G,V,Y,
 
 ### Selecting sequences
 
-The greedy algorithm keeps a running count of which residues have been observed at each position. At every position, the algorithm scans the remaining sequences and selects the one that would introduce the largest number of unseen residues. In cases of a tie, the algorithm select the sequence whose total Hamming distance to the already selected set is greatest.
+The greedy algorithm keeps a running count of which residues have been observed at each position. At every position, the algorithm scans the remaining sequences and selects the one that would introduce the largest number of unseen residues. In the case of a tie, the algorithm select the sequence whose total Hamming distance to the already selected set is greatest.
 
 #### Diversity score
 
